@@ -1,0 +1,22 @@
+// 函数: sub_415bb8
+// 地址: 0x415bb8
+// 来自: E:/torrent/Tools/Speaking Clock/spclock.exe.bndb
+
+int32_t ebp
+int32_t var_4 = ebp
+sub_404074(arg1, arg2)
+char var_9 = arg2.b
+EnterCriticalSection(&data_4b1998)
+int32_t* var_10_1 = &var_4
+int32_t (* var_14)(void* arg1, void* arg2) = j_sub_40443c
+TEB* fsbase
+struct _EXCEPTION_REGISTRATION_RECORD* ExceptionList = fsbase->NtTib.ExceptionList
+fsbase->NtTib.ExceptionList = &ExceptionList
+int16_t eax_1 = arg1[1].w
+
+if (eax_1 != 0)
+    *(data_4b1994 + (zx.d(eax_1) << 2) - 0x400) = data_4aaa38
+
+fsbase->NtTib.ExceptionList = ExceptionList
+int32_t (__stdcall* var_10_2)(void* arg1 @ ebp, int32_t arg2, int32_t arg3) = sub_415c22
+return LeaveCriticalSection(&data_4b1998)

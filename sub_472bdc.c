@@ -1,0 +1,6 @@
+// 函数: sub_472bdc
+// 地址: 0x472bdc
+// 来自: E:/torrent/Tools/Speaking Clock/spclock.exe.bndb
+
+int32_t* eax
+return sub_403c68(eax)

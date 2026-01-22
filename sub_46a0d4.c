@@ -1,0 +1,113 @@
+// 函数: sub_46a0d4
+// 地址: 0x46a0d4
+// 来自: E:/torrent/Tools/Speaking Clock/spclock.exe.bndb
+
+*arg1 += arg1.b
+*arg1 += arg1.b
+*arg1 += arg1.b
+*arg1 += arg1.b
+*(arg2 - 0x5c0fffba) &= arg1:1.b
+*arg1 += arg1.b
+*arg1 += arg1.b
+*arg1 += arg1.b
+*arg1 += arg1.b
+*(arg2 - 0x5e) += arg3.b
+char* entry_ebx
+arg2:1.b += entry_ebx.b
+*0x35c0046 = arg1
+*arg1 += arg1.b
+arg7 f- fconvert.t(*(arg3 + 0x3ac00046))
+*(((arg2 + 1) << 3) + 0xd7280046) += arg1:1.b
+arg1:1.b += arg1.b
+arg1[1] += (&arg1[1]):1.b
+*(&__return_addr + arg6) += entry_ebx.b
+*((&arg1[1] | 0x3c000047) + 0x300046d9) += (arg2 + 1).b
+*arg6 += arg3.b
+*((&arg1[1] | 0x3c000047) - 0x35a3b8df) += (arg3 + 1).b
+*(arg5 + 4)
+entry_ebx.b = 0
+char temp0 = ((&arg1[1] | 0x3c000047) - 0x21a3ffb8).b
+char temp1 = ((&arg1[1] | 0x3c000047) - 0x21a3ffb8).b
+void* eax_4
+eax_4.b = ((&arg1[1] | 0x3c000047) - 0x21a3ffb8).b * 2
+void* esi_7
+void* edi
+
+if (temp0 != neg.b(temp1))
+    *arg6 = *(arg5 + 5)
+    edi = &arg6[1]
+    esi_7 = arg5 + 6
+    
+    if (temp0 != neg.b(temp1))
+        goto label_46a1c7
+    
+    goto label_46a17f
+
+eax_4.b = eax_4.b
+*(arg2 + 1)
+entry_ebx:1.b += eax_4:1.b
+*(arg6 + arg5 + 6 + 0x36d00042) += (arg2 + 1):1.b
+edi = &arg6[1]
+*(eax_4 + 0x540046d3) = *(eax_4 + 0x540046d3)
+*arg4 += 1
+void* var_4_1 = eax_4
+int32_t var_8_1 = arg3 + 1
+void* var_c_1 = arg2 + 1
+char* var_10 = entry_ebx
+int32_t* var_14_1 = &var_10
+int32_t* var_18_1 = arg4
+void* var_1c_1 = arg5 + 6
+void* var_20 = edi
+char* esp = &var_20
+*(eax_4 - 0x2b53ba52) += entry_ebx:1.b
+*entry_ebx += (arg2 + 1):1.b
+esi_7 = arg5 + 8
+*(esi_7 * 9 + 0x45) = *(esi_7 * 9 + 0x45)
+eax_4.b = (eax_4 + 0x4ac0046).b + entry_ebx:1.b
+eax_4:1.b += entry_ebx:1.b
+*eax_4 += (arg3 + 1):1.b
+int32_t eflags
+eax_4.b = __in_al_immb(0x46, eflags)
+*(eax_4 - 0x5f) += (arg2 + 1):1.b
+*(entry_ebx + esi_7 + 0x75a40047) = *(entry_ebx + esi_7 + 0x75a40047)
+arg4 += 5
+label_46a17f:
+*(arg2 + 1 + (arg4 << 1)) += (arg2 + 1):1.b
+void* ebp_4 = arg4 + 1
+char temp2_1 = *eax_4
+*eax_4 += (arg2 + 1):1.b
+
+if (temp2_1 != neg.b((arg2 + 1):1.b) && temp2_1 + (arg2 + 1):1.b u>= temp2_1)
+    eax_4:1.b += entry_ebx.b
+else
+    *(esi_7 + 0x46) += eax_4.b
+    *eax_4 += eax_4.b
+    void* eax_5 = __in_oeax_immb(0x46, eflags)
+    *(eax_5 + (edi << 1) + 0x45) += (arg3 + 1):1.b
+    *(eax_5 - 0x19) += eax_5.b
+    eax_4 = *0xf6b00045
+    *(eax_4 - 9) += (arg2 + 1):1.b
+    arg4 = ebp_4 + 2
+    *(arg2 + 1 + ((esi_7 + 1) << 3) + 0x45) += eax_4:1.b
+    *(edi + ((esi_7 + 1) << 3) + 0x45) += (arg2 + 1).b
+    *(eax_4 + 0x140046d2) += (arg3 + 1).b
+    __out_dx_oeax((arg2 + 1).w, eax_4, eflags)
+    esi_7 += 2
+    *(edi * 5 + 0x2e40045) += eax_4:1.b
+    *(arg2 + 1 + arg3 + 1) += (arg3 + 1):1.b
+    *eax_4 += entry_ebx:1.b
+    *(edi + 2) |= eax_4.b
+label_46a1c7:
+    *(eax_4 - 0x40) += eax_4:1.b
+    ebp_4 = arg4 + 2
+    *(eax_4 - 0x23ffb8f5) += (arg3 + 1):1.b
+
+eax_4.b |= 0x47
+*(eax_4 + 0x400045be) += entry_ebx.b
+char* eax_6 = eax_4 | 0xf89c0046
+*(esp + arg2 + 1) += (arg2 + 1).b
+esp[arg3 - 0xaf3ffb9] += (arg2 + 1):1.b
+*(esi_7 + arg3 + 1) += eax_6.b
+*(esi_7 + 1 + ebp_4 + 2 - 0x3397ffb9) += (arg2 + 1).b
+*eax_6 += entry_ebx.b
+undefined

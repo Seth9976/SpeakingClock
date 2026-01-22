@@ -1,0 +1,5 @@
+// 函数: sub_468fa8
+// 地址: 0x468fa8
+// 来自: E:/torrent/Tools/Speaking Clock/spclock.exe.bndb
+
+return 

@@ -1,0 +1,6 @@
+// 函数: sub_49aaa0
+// 地址: 0x49aaa0
+// 来自: E:/torrent/Tools/Speaking Clock/spclock.exe.bndb
+
+void* eax
+return sub_4998a4(eax)
