@@ -1,0 +1,7 @@
+// 函数: sub_407d80
+// 地址: 0x407d80
+// 来自: E:\torrent\Tools\Speaking Clock\voice\American English (male).dll
+
+int16_t x87control
+long double x87_r0
+return sub_407c0c(sub_403e88(arg1), arg2, x87control, x87_r0)

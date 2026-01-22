@@ -1,0 +1,257 @@
+// 函数: sub_4059b8
+// 地址: 0x4059b8
+// 来自: E:\torrent\Tools\Speaking Clock\voice\American English (male).dll
+
+int32_t* var_4 = arg1
+void* var_8 = arg3
+void* var_c = arg2
+void* entry_ebx
+void* var_10 = entry_ebx
+int32_t* var_14 = &var_10
+void* var_18 = arg4
+void* var_1c = arg5
+void* var_20 = arg6
+arg1.b += arg2:1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+void* ecx_1
+ecx_1.b = (arg3 + 2).b + arg2:1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg2.b += arg2:1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+entry_ebx.b += arg2:1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg1:1.b += arg2:1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+void* ecx_5
+ecx_5:1.b = (ecx_1 + 4):1.b + arg2:1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg2:1.b *= 2
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+entry_ebx:1.b += arg2:1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg1.b += entry_ebx:1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+void* ecx_9
+ecx_9.b = (ecx_5 + 4).b + entry_ebx:1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg2.b += entry_ebx:1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+entry_ebx.b += entry_ebx:1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg1:1.b += entry_ebx:1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+void* ecx_13
+ecx_13:1.b = (ecx_9 + 4):1.b + entry_ebx:1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg2:1.b += entry_ebx:1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+entry_ebx:1.b *= 2
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg1.b += arg1:1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+void* ecx_17
+ecx_17.b = (ecx_13 + 4).b + arg1:1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg2.b += arg1:1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+entry_ebx.b += arg1:1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg1:1.b *= 2
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+void* ecx_21
+ecx_21:1.b = (ecx_17 + 4):1.b + arg1:1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg2:1.b += arg1:1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+entry_ebx:1.b += arg1:1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg1.b += (ecx_21 + 3):1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+void* ecx_25
+ecx_25.b = (ecx_21 + 4).b + (ecx_21 + 4):1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg2.b += (ecx_25 + 1):1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+entry_ebx.b += (ecx_25 + 2):1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg1:1.b += (ecx_25 + 3):1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+void* ecx_29
+ecx_29:1.b = (ecx_25 + 4):1.b * 2
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg2:1.b += (ecx_29 + 1):1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+entry_ebx:1.b += (ecx_29 + 2):1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg1.b += arg2.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+void* ecx_33
+ecx_33.b = (ecx_29 + 4).b + arg2.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg2.b *= 2
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+entry_ebx.b += arg2.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg1:1.b += arg2.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+void* ecx_37
+ecx_37:1.b = (ecx_33 + 4):1.b + arg2.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg2:1.b += arg2.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+entry_ebx:1.b += arg2.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg1.b += entry_ebx.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+void* ecx_41
+ecx_41.b = (ecx_37 + 4).b + entry_ebx.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg2.b += entry_ebx.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+entry_ebx.b *= 2
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg1:1.b += entry_ebx.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+void* ecx_45
+ecx_45:1.b = (ecx_41 + 4):1.b + entry_ebx.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg2:1.b += entry_ebx.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+entry_ebx:1.b += entry_ebx.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg1.b *= 2
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+void* ecx_49
+ecx_49.b = (ecx_45 + 4).b + arg1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg2.b += arg1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+entry_ebx.b += arg1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg1:1.b += arg1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+void* ecx_53
+ecx_53:1.b = (ecx_49 + 4):1.b + arg1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg2:1.b += arg1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+entry_ebx:1.b += arg1.b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg1.b += (ecx_53 + 3).b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+void* ecx_57
+ecx_57.b = (ecx_53 + 4).b * 2
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg2.b += (ecx_57 + 1).b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+entry_ebx.b += (ecx_57 + 2).b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg1:1.b += (ecx_57 + 3).b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+void* ecx_61
+ecx_61:1.b = (ecx_57 + 4):1.b + (ecx_57 + 4).b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+arg2:1.b += (ecx_61 + 1).b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+entry_ebx:1.b += (ecx_61 + 2).b
+*arg1 += 1
+*(arg1 + 0x46) += arg1:1.b
+*(arg1 + 0x600000ff) += arg2:1.b
+*(ecx_61 + 0x60000103) += arg2:1.b
+*(arg2 + 0x600000ff) += arg2:1.b
+*(entry_ebx + 0x600000ff) += arg2:1.b
+*(arg6 * 9 + 0x46600000) += arg2:1.b
+*(arg4 + 0x600000ff) += arg2:1.b
+*(arg5 + 0x60000105) += arg2:1.b
+*(arg6 + 0x600000ff) += arg2:1.b
+*(arg1 + 0x600000ff) += entry_ebx:1.b
+*(ecx_61 + 0x6000010b) += entry_ebx:1.b
+*(arg2 + 0x600000ff) += entry_ebx:1.b
+*(entry_ebx + 0x600000ff) += entry_ebx:1.b
+*(arg6 * 9 + 0x46600000) += entry_ebx:1.b
+*(arg4 + 0x600000ff) += entry_ebx:1.b
+*(arg5 + 0x6000010c) += entry_ebx:1.b
+*(arg6 + 0x600000ff) += entry_ebx:1.b
+*(arg1 + 0x600000ff) += arg1:1.b
+*(ecx_61 + 0x60000113) += arg1:1.b
+*(arg2 + 0x600000ff) += arg1:1.b
+*(entry_ebx + 0x600000ff) += arg1:1.b
+*(arg6 * 9 + 0x46600000) += arg1:1.b
+*(arg4 + 0x600000ff) += arg1:1.b
+void* esi_15
+*(esi_15 + 0x60000103) += arg1:1.b
+*(arg6 + 0x600000ff) += arg1:1.b
+*(arg1 + 0x600000ff) += (ecx_61 + 0x1b):1.b
+*(ecx_61 + 0x6000011b) += (ecx_61 + 0x1c):1.b
+*(arg2 + 0x550000ff) += ((ecx_61 + 0x1c).w + 1):1.b
+void** var_24 = &var_20
+int32_t (* var_28)(void* arg1, void* arg2) = j_sub_40338c
+TEB* fsbase
+struct _EXCEPTION_REGISTRATION_RECORD* ExceptionList = fsbase->NtTib.ExceptionList
+fsbase->NtTib.ExceptionList = &ExceptionList
+data_41467c += 1
+fsbase->NtTib.ExceptionList = ExceptionList
+return 0
