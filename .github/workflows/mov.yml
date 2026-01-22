@@ -1,0 +1,54 @@
+name: Reorganize Files Structure
+# 重组文件结构工作流
+
+on:
+  # 允许手动触发 (在 Actions 页面点击 Run workflow)
+  workflow_dispatch:
+  # 或者在推送到主分支时触发 (根据需要取消注释)
+  # push:
+  #   branches: [ "main" ]
+
+jobs:
+  move-and-restructure:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # 1. 检出代码
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. 执行移动操作
+      - name: Create folder and move files
+        run: |
+          # 开启 bash 的扩展模式匹配 (extglob) 和 隐藏文件匹配 (dotglob)
+          # extglob: 允许使用 !(pattern) 排除语法
+          # dotglob: 允许通配符 * 匹配以 . 开头的隐藏文件
+          shopt -s extglob dotglob
+
+          echo "创建目标文件夹 spclock.exe..."
+          mkdir -p spclock.exe
+
+          echo "正在移动文件..."
+          # 语法解释: mv !(排除列表) 目标目录
+          # 我们排除 .git (仓库元数据), .github (本工作流), 以及 spclock.exe (目标本身)
+          mv !(.git|.github|spclock.exe) spclock.exe/
+
+          echo "移动完成，当前目录结构："
+          ls -R
+
+      # 3. (可选) 将更改推送到仓库
+      # 如果你希望这个移动操作直接修改你的仓库代码，请保留此步骤
+      - name: Commit and Push changes
+        run: |
+          # 配置 git 用户信息
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 添加更改
+          git add .
+          
+          # 提交更改
+          git commit -m "chore: Move root files into spclock.exe folder"
+          
+          # 推送回当前分支
+          git push
